@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(#ffba08, #ffba08);
+}
+
+.content-header, .activity-intro, .guide-greetings {
+  font-family: 'Happy Monkey', cursive;
+}
+
+/* <!-- HERO SECTION -->*/
+
+.header-section {
+  background-image: url(images/Laguna.jpg);
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-shadow: 0 0 3px #000000;
+}
+
+.header-section-parag {
+  font-style: italic;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+.content-header {
+  font-size: 32px;
+  margin-bottom: 13px;
+}
+
+/* <!-- ACTIVITIES SECTION --> */
+
+.activities-section {
+  margin: 0 auto;
+  background-image: linear-gradient(#370617, #ffba08);
+  padding: 40px 0;
+  text-shadow: 0 0 1px #000000;
+}
+
+.activities-container {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.activity-intro {
+  margin: 0 auto 80px auto;
+  font-size: 30px;
+}
+
+.card {
+  width: 300px;
+  height: 250px;
+  font-weight: 400;
+  margin-bottom: 80px;
+}
+
+.activity-img {
+  width: 205px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: .5s ease
+
+}
+
+.activity-img:hover {
+  transform: scale(1.1)
+
+}
+
+/* <!-- GUIDE SECTION --> */
+
+.christy-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+  margin: auto 25px;
+}
+
+.guide-section {
+  width: 600px;
+  height: 250px;
+  background-image: linear-gradient(#370617, #ffba08);
+  display: flex;
+  flex-direction: row;
+  margin: 100px auto 100px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-shadow: 0 0 1px black;
+  border-radius: 10px;
+  transition: 1s ease
+}
+
+.guide-section:hover{
+  transform: scale(1.1)
+}
+
+.guide-info {
+  margin: auto 25px;
+}
+
+.guide-greetings {
+  font-size: 25px;
+}
+
+.guide-greetings-p {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 14px;
+  text-align: start;
+}
+
+.i {
+  margin-left: 12px;
+}
+
+.friendly-guide {
+  text-align: start;
+  font-size: 14px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.guide-name {
+  font-family: 'Alex Brush', cursive;
+  font-weight: 100;
+  font-size: 25px;
+  margin-top: 2px;
+  text-align: start;
+
+}
